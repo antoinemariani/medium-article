@@ -1,0 +1,121 @@
+
+
+/* Texts */
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 26px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: grey
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+/* Links */
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: cadetblue;
+}
+
+a:hover {
+  transition-duration: 100ms;
+  background-color: cadetblue;
+  color: bisque;
+}
+
+/* Banner */
+
+
+.banner {
+  height: 500px;
+  background-image: url("https://picsum.photos/1000/500");
+  background-size: cover;
+  position: relative;
+  margin: 0px auto;
+}
+
+.banner .container {
+  color: black;
+  width: 800px;
+  position: absolute;
+  padding: 10px 30px 10px 30px;
+  margin-top: 200px;
+  margin-left: 100px;
+  background-color: wheat;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media(max-width: 1200px) {
+  .banner .container {
+    width: 800px;
+  }
+}
+
+@media(max-width: 992px) {
+  .banner .container {
+    width: 600px;
+  }
+}
+
+@media(max-width: 768px) {
+  .banner .container {
+    width: 400px;
+  }
+}
+
+@media(max-width: 576px) {
+  .banner .container {
+    width: 200px;
+  }
+}
+
+/* Container */
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  margin: 50px auto;
+  width: 900px;
+  padding: 10px 100px 10px 100px;
+}
